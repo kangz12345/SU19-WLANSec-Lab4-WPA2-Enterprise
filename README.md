@@ -4,6 +4,14 @@
 
 __Korean/Swiss hybrid teams are highly encouraged__
 
+Group2
+
+Jiyong Kang
+
+Taekbom Lee
+
+Basile Botebol
+
 ### For this first part, you will need to:
 
 - Implement a WPE (Wireless Pwnage Edition) attack agains a WPA Enterprise network
