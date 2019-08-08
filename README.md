@@ -47,7 +47,7 @@ How to run the attack:
 
 > **_Question :_** What options did you have to modify in the hostapd-wpe configuration file in order to make the attack work ?
 > 
-> **_Answer:_** 
+> **_Answer:_** The name of the network.
 
 ---
 
@@ -59,7 +59,12 @@ How to run the attack:
 
 > **_Question:_** Which authentication methods are supported by hostapd-wpe ?
 > 
-> **_Réponse:_**
+> **_Réponse:_** EAP-FAST/MSCHAPv2 (Phase 0), 
+PEAP/MSCHAPv2, 
+EAP-TTLS/MSCHAPv2, 
+EAP-TTLS/MSCHAP, 
+EAP-TTLS/CHAP, 
+and EAP-TTLS/PAP.
 
 
 ## In case of problems...
