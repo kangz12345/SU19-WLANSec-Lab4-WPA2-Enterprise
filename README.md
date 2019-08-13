@@ -47,13 +47,13 @@ How to run the attack:
 
 > **_Question :_** What options did you have to modify in the hostapd-wpe configuration file in order to make the attack work ?
 > 
-> **_Answer:_** The name of the network.
+> **_Answer:_** The name of the network (SSID).
 
 ---
 
 > **_Question:_** What type of hash did you capture ?
 > 
-> **_Answer:_** 
+> **_Answer:_** a NET-NTLM hash
 
 ---
 
